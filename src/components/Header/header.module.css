@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+  height: 80px;
+  box-shadow: 0 0 10px var(--shadow);
+}
+
+.headerLogo {
+  width: 100px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.themeToggle {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.toggleButtons {
+  background: none;
+  border: none;
+  outline: none;
+}
+.navList {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2%;
+  width: 100%;
+  place-content: flex-end;
+}
+.flexCenter {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  width: 80%;
+  place-content: flex-end;
+}

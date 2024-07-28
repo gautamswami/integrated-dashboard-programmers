@@ -1,0 +1,6 @@
+.contentContainer {
+  display: flex;
+  padding: 2%;
+  gap: 2%;
+  background: var(--secondary-background);
+}

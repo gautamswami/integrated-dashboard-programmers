@@ -1,0 +1,24 @@
+.sideBarContainer {
+  width: 20%;
+  display: flex;
+  place-content: center;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px var(--background);
+  background: var(--background);
+}
+.profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+}
+.profileContainer p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.profileImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px 0;
+}
