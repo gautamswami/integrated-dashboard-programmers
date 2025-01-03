@@ -26,7 +26,7 @@ export default function Dashboard() {
         setIsDarkMode(!isDarkMode);
     };
     const context = useContext(DataContext);
-    const { activeTab, setActiveTab } = context;
+    const { activeTab } = context;
 
     return (
         <div className={`min-h-screen ${isDarkMode ? "dark" : ""}`}>
