@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 245, 245, 245;
+}
+
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 17, 24, 39;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.dark .bg-white {
+  background-color: rgb(31, 41, 55);
+  color: white;
+}
+
+.dark input {
+  background-color: rgb(31, 41, 55);
+  color: white;
+  border-color: rgb(75, 85, 99);
+}
+
